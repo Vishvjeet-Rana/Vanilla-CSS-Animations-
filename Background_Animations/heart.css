@@ -11,11 +11,13 @@ body {
   overflow: hidden;
   background: linear-gradient(
     90deg,
-    #8a2be2 0%,
-    /* Blue Violet */ #ba55d3 25%,
-    /* Medium Orchid */ #da70d6 50%,
-    /* Orchid */ #ee82ee 75%,
-    /* Violet */ #ffb6c1 100% /* Light Pink */
+    #9932cc 0%,
+    /* DarkOrchid */ #da70d6 20%,
+    /* Orchid */ #ee82ee 40%,
+    /* Violet */ #ffc0cb 60%,
+    /* Pink */ #ffdab9 70%,
+    /* PeachPuff */ /* Red (or OrangeRed) */ #ff1493 100%
+      /* DeepPink (DarkPink) */
   );
 }
 
@@ -182,6 +184,66 @@ h2 {
   top: 10%;
   left: 65%;
   animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(21) {
+  top: 5%;
+  left: 20%;
+  animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(22) {
+  top: 60%;
+  left: 30%;
+  animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(23) {
+  top: 45%;
+  left: 75%;
+  animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(24) {
+  top: 35%;
+  left: 50%;
+  animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(25) {
+  top: 80%;
+  left: 85%;
+  animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(26) {
+  top: 25%;
+  left: 60%;
+  animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(27) {
+  top: 90%;
+  left: 10%;
+  animation: animate 14s linear infinite;
+}
+
+.box div:nth-child(28) {
+  top: 12%;
+  left: 85%;
+  animation: animate 13s linear infinite;
+}
+
+.box div:nth-child(29) {
+  top: 18%;
+  left: 5%;
+  animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(30) {
+  top: 50%;
+  left: 95%;
+  animation: animate 15s linear infinite;
 }
 
 @keyframes animate {
