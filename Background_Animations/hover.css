@@ -16,8 +16,8 @@ section {
 section .row {
   display: flex;
   position: absolute;
-  width: 100%;
-  white-space: nowrap;
+  width: 130%;
+  white-space: normal;
   padding: 10px 0;
   transform: rotate(-30deg);
   top: -50%;
@@ -39,15 +39,15 @@ i:hover {
 }
 
 section .row div {
-  white-space: nowrap;
+  white-space: normal;
   font-size: 1em;
-  animation: animate 80s linear infinite;
-  animation-delay: -80s;
+  animation: animate 6s linear infinite;
+  /* animation-delay: 100s; */
 }
 
 section .row div:nth-child(2) {
-  animation: animate 80s linear infinite;
-  animation-delay: -40s;
+  animation: animate2 6s linear infinite;
+  /* animation-delay: 100s; */
 }
 
 @keyframes animate {
