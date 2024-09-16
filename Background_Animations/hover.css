@@ -33,20 +33,20 @@ i {
 }
 
 i:hover {
-  color: #39ff14;
-  text-shadow: 0 0 120px #39ff14;
+  color: #00ff00;
+  text-shadow: 0 0 120px #00ff00;
   transition: 0s;
 }
 
 section .row div {
   white-space: normal;
   font-size: 1em;
-  animation: animate 6s linear infinite;
+  animation: animate 2s linear infinite;
   /* animation-delay: 100s; */
 }
 
 section .row div:nth-child(2) {
-  animation: animate2 6s linear infinite;
+  animation: animate2 2s linear infinite;
   /* animation-delay: 100s; */
 }
 
