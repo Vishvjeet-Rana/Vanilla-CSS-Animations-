@@ -47,13 +47,11 @@ ul li {
 
 ul li a {
   text-decoration: none;
-  padding: 7px;
+  padding: 10px;
   color: white;
   font-size: 1.2rem;
-  border: 2px solid white;
   border-radius: 6px;
-  box-shadow: inset -3px -3px 5px rgb(196, 195, 195),
-    inset 2px 2px 2px rgb(196, 195, 195);
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
   border: none;
 }
 
@@ -75,7 +73,36 @@ ul li a {
   height: 100%;
   width: 200%;
   position: absolute;
-  background-repeat: repeat no-repeat;
+  background-repeat: repeat-x;
   background-origin: center bottom;
   background-position: 0 bottom;
+}
+
+.wave1 {
+  -webkit-background-size: 50% 80px;
+  background-size: 50% 80px;
+}
+
+.wave2 {
+  -webkit-background-size: 50% 100px;
+  background-size: 50% 100px;
+  animation: animate 12s linear infinite;
+}
+
+.wave3 {
+  -webkit-background-size: 50% 80px;
+  background-size: 50% 80px;
+  animation: animate 18s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(0) scaleY(1); /* Normal height */
+  }
+  50% {
+    transform: translateX(-25%) scaleY(0.95); /* Slight vertical shrink */
+  }
+  100% {
+    transform: translateX(-50%) scaleY(1); /* Back to normal height */
+  }
 }
